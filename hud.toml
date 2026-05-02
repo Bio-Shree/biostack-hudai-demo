@@ -1,0 +1,18 @@
+[project]
+name        = "biostack-drug-env"
+description = "Drug-target reasoning RL environment — BioStack proof of concept"
+version     = "0.1.0"
+
+[environment]
+entry       = "env:env"         # file:variable pointing to the Environment instance
+python      = "3.12"
+
+[eval]
+default_model   = "claude-sonnet-4-5"
+default_tasks   = "tasks.json"
+max_steps       = 20            # safety cap per task
+timeout_seconds = 60
+
+[deploy]
+replicas    = 1                 # increase for parallel eval runs at scale
+region      = "us-east-1"

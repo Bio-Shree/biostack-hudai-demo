@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "match_drug_to_target",
+    "args": {
+      "target": "EGFR",
+      "candidates": ["Erlotinib", "Vemurafenib", "Metformin"],
+      "correct": "Erlotinib"
+    }
+  },
+  {
+    "scenario": "match_drug_to_target",
+    "args": {
+      "target": "BRAF",
+      "candidates": ["Erlotinib", "Vemurafenib", "Metformin"],
+      "correct": "Vemurafenib"
+    }
+  },
+  {
+    "scenario": "match_drug_to_target",
+    "args": {
+      "target": "EGFR",
+      "candidates": ["Vemurafenib", "Metformin", "Erlotinib"],
+      "correct": "Erlotinib"
+    }
+  },
+  {
+    "scenario": "match_drug_to_target",
+    "args": {
+      "target": "VEGFR2",
+      "candidates": ["Erlotinib", "Bevacizumab", "Metformin"],
+      "correct": "Bevacizumab"
+    }
+  },
+  {
+    "scenario": "match_drug_to_target",
+    "args": {
+      "target": "BRAF",
+      "candidates": ["Bevacizumab", "Metformin", "Vemurafenib"],
+      "correct": "Vemurafenib"
+    }
+  },
+  {
+    "scenario": "match_drug_to_target",
+    "args": {
+      "target": "VEGFR2",
+      "candidates": ["Vemurafenib", "Bevacizumab", "Erlotinib"],
+      "correct": "Bevacizumab"
+    }
+  }
+]
