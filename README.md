@@ -8,7 +8,7 @@
 
 **3-minute demo** — See the AI agent reason through drug discovery tasks:
 
-[🎬 Watch Demo Video](./[Biostack%20x%20HudAI]%20Demo%20Usecase.mp4)
+[🎬 Watch Demo Video](https://drive.google.com/file/d/11jIexfwVNmPA1Gwj2Fls7wN1FElOoQk0/view?usp=sharing)
 
 *Click to watch → Agent uses tools, reasons biologically, scores 100%*
 
